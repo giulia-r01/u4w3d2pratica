@@ -36,4 +36,9 @@ public class EventoDAO {
         }
     }
 
+//    per chiudere il collegamento con il db
+    public void close(){
+        em.close();
+    }
+
 }
