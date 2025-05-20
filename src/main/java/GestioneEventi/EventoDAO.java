@@ -32,7 +32,7 @@ public class EventoDAO {
             em.remove(e);
             em.getTransaction().commit();
         }else {
-            System.out.println("L'evento con id " + id + "non è stato trovato");
+            System.out.println("L'evento con id " + id + " non è stato trovato");
         }
     }
 
